@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-[url(img/Fondo.png)] h-screen w- bg-cover bg-bottom">
+        <div class="container">
+            <div class="md:w-6/12 flex flex-col gap-14">
+                <h1 class="text-3xl mt-14 md:text-5xl text-white">Consulta tus criptomonedas</h1>
+                <div class="bg-black/50 shadow-lg text-white w-full rounded-lg border border-white p-7 md:p-14">
+                    <form id="formulario">
+                        <div class="flex flex-col gap-2">
+                            <label>Elige tu Moneda</label>
+                            <select class="bg-white/80 text-black rounded-lg py-2" id="moneda" name="moneda">
+                                <option value="">Elige tu moneda</option>
+                                <option value="USD">Dolar Estadounidense</option>
+                                <option value="MXN">Peso Mexicano</option>
+                                <option value="GBP">Libras</option>
+                                <option value="EUR">Euros</option>
+                            </select>
+                        </div>
+
+                        <div class="flex flex-col gap-2 mt-7">
+                            <label>Elige tu Criptomoneda</label>
+                            <select class="bg-white/80 text-black rounded-lg py-2" id="criptomonedas" name="criptomoneda">
+                                <option value="">Elige tu criptomoneda</option>
+                            </select>
+                        </div>
+
+                        <input class="mt-14 bg-cyan-500 w-full p-2 rounded-lg text-black font-bold" type="submit" value="Cotizar" />
+                    </form>
+                </div>
+            </div>
+            <!--resultado-->
+            <div class="flex flex-col md:w-6/12">
+
+            </div>
+            
+              
+        </div>
+    </div>
+
+</body>
+
+</html>
