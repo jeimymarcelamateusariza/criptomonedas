@@ -5,4 +5,10 @@
       @apply container mx-auto px-4 sm:px-6 lg:px-8;
     }
   }
+
+@layer utilities{
+  .error {
+    @apply text-red-500 font-semibold text-center text-sm mt-0.5 underline
+  }
+}
   
